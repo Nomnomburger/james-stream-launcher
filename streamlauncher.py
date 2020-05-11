@@ -16,11 +16,12 @@ class streamlauncher():
         app.setTitle("James' Stream Launcer Console")
         app.addLabel("title", "Welcome to James' Stream Launcher Console")
         app.setLabelBg("title", "white")
-        app.setIcon("gamerjames_burned.ico")
         app.addButtons(["Launch Stream!", "Cancel"], self.press)
-        app.startLabelFrame("James for GDC!", 0, 20)
-        app.addImage("simple", "gamerjames_burned.png")
-        app.stopLabelFrame()
+        app.addLabel("18", "James for GDC!")
+
+        #app.startLabelFrame("James for GDC!", 0, 20)
+        #app.addImage("James for GDC!", "gamerjames-burned.gif")
+        #app.stopLabelFrame()
 
         return app
 
